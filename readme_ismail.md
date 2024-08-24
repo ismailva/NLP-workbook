@@ -1,0 +1,12 @@
+Project can be assessed in two ways 
+- Through Google colab jupyter notebook [preferred]
+  - Copy all three available notebook in notebook folder to colab.
+  - Mount Google Drive in colab.
+  - in the first line of colab notebook change working directory to where you kept data.
+  - Then run it in below order.
+    - data_preprocessing.ipynb.
+      - this will generate merged Excel file and word2vec embeddings.
+      - http://projector.tensorflow.org/ can be used for visualizing word2vec embeddings
+    - EDA_and_classification.ipynb
+      - it is having all EDA related stuff
+      - this will generate classification model using pretrained sentence embedding layer(USE).
